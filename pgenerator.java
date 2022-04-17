@@ -8,7 +8,7 @@ public class Tester{
    private static char[] generatePassword(int length) {
       String capitalCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
-      String specialCharacters = "!@#$";
+      String specialCharacters = "!@#/$";
       String numbers = "1234567890";
       String combinedChars = capitalCaseLetters + lowerCaseLetters + specialCharacters + numbers;
       Random random = new Random();
